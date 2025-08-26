@@ -1,0 +1,3 @@
+/Users/acsbence/Documents/C++/warehouseManager/build/CMakeFiles/app.dir
+/Users/acsbence/Documents/C++/warehouseManager/build/CMakeFiles/edit_cache.dir
+/Users/acsbence/Documents/C++/warehouseManager/build/CMakeFiles/rebuild_cache.dir
