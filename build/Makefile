@@ -129,6 +129,54 @@ app/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
 .PHONY : app/fast
 
+src/driver.o: src/driver.cpp.o
+.PHONY : src/driver.o
+
+# target to build an object file
+src/driver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/driver.cpp.o
+.PHONY : src/driver.cpp.o
+
+src/driver.i: src/driver.cpp.i
+.PHONY : src/driver.i
+
+# target to preprocess a source file
+src/driver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/driver.cpp.i
+.PHONY : src/driver.cpp.i
+
+src/driver.s: src/driver.cpp.s
+.PHONY : src/driver.s
+
+# target to generate assembly for a file
+src/driver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/driver.cpp.s
+.PHONY : src/driver.cpp.s
+
+src/employee.o: src/employee.cpp.o
+.PHONY : src/employee.o
+
+# target to build an object file
+src/employee.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/employee.cpp.o
+.PHONY : src/employee.cpp.o
+
+src/employee.i: src/employee.cpp.i
+.PHONY : src/employee.i
+
+# target to preprocess a source file
+src/employee.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/employee.cpp.i
+.PHONY : src/employee.cpp.i
+
+src/employee.s: src/employee.cpp.s
+.PHONY : src/employee.s
+
+# target to generate assembly for a file
+src/employee.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/employee.cpp.s
+.PHONY : src/employee.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +210,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... app"
+	@echo "... src/driver.o"
+	@echo "... src/driver.i"
+	@echo "... src/driver.s"
+	@echo "... src/employee.o"
+	@echo "... src/employee.i"
+	@echo "... src/employee.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

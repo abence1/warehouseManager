@@ -72,10 +72,38 @@ include CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/codegen:
 .PHONY : CMakeFiles/app.dir/codegen
 
+CMakeFiles/app.dir/src/driver.cpp.o: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/src/driver.cpp.o: /Users/acsbence/Documents/C++/warehouseManager/src/driver.cpp
+CMakeFiles/app.dir/src/driver.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/acsbence/Documents/C++/warehouseManager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/app.dir/src/driver.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/driver.cpp.o -MF CMakeFiles/app.dir/src/driver.cpp.o.d -o CMakeFiles/app.dir/src/driver.cpp.o -c /Users/acsbence/Documents/C++/warehouseManager/src/driver.cpp
+
+CMakeFiles/app.dir/src/driver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/driver.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/acsbence/Documents/C++/warehouseManager/src/driver.cpp > CMakeFiles/app.dir/src/driver.cpp.i
+
+CMakeFiles/app.dir/src/driver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/driver.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/acsbence/Documents/C++/warehouseManager/src/driver.cpp -o CMakeFiles/app.dir/src/driver.cpp.s
+
+CMakeFiles/app.dir/src/employee.cpp.o: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/src/employee.cpp.o: /Users/acsbence/Documents/C++/warehouseManager/src/employee.cpp
+CMakeFiles/app.dir/src/employee.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/acsbence/Documents/C++/warehouseManager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.dir/src/employee.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/employee.cpp.o -MF CMakeFiles/app.dir/src/employee.cpp.o.d -o CMakeFiles/app.dir/src/employee.cpp.o -c /Users/acsbence/Documents/C++/warehouseManager/src/employee.cpp
+
+CMakeFiles/app.dir/src/employee.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/employee.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/acsbence/Documents/C++/warehouseManager/src/employee.cpp > CMakeFiles/app.dir/src/employee.cpp.i
+
+CMakeFiles/app.dir/src/employee.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/employee.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/acsbence/Documents/C++/warehouseManager/src/employee.cpp -o CMakeFiles/app.dir/src/employee.cpp.s
+
 CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/src/main.cpp.o: /Users/acsbence/Documents/C++/warehouseManager/src/main.cpp
 CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/acsbence/Documents/C++/warehouseManager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/app.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/acsbence/Documents/C++/warehouseManager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/app.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/main.cpp.o -MF CMakeFiles/app.dir/src/main.cpp.o.d -o CMakeFiles/app.dir/src/main.cpp.o -c /Users/acsbence/Documents/C++/warehouseManager/src/main.cpp
 
 CMakeFiles/app.dir/src/main.cpp.i: cmake_force
@@ -88,15 +116,19 @@ CMakeFiles/app.dir/src/main.cpp.s: cmake_force
 
 # Object files for target app
 app_OBJECTS = \
+"CMakeFiles/app.dir/src/driver.cpp.o" \
+"CMakeFiles/app.dir/src/employee.cpp.o" \
 "CMakeFiles/app.dir/src/main.cpp.o"
 
 # External object files for target app
 app_EXTERNAL_OBJECTS =
 
+app: CMakeFiles/app.dir/src/driver.cpp.o
+app: CMakeFiles/app.dir/src/employee.cpp.o
 app: CMakeFiles/app.dir/src/main.cpp.o
 app: CMakeFiles/app.dir/build.make
 app: CMakeFiles/app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/acsbence/Documents/C++/warehouseManager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/acsbence/Documents/C++/warehouseManager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable app"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

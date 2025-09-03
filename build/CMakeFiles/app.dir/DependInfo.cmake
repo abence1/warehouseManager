@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/acsbence/Documents/C++/warehouseManager/src/driver.cpp" "CMakeFiles/app.dir/src/driver.cpp.o" "gcc" "CMakeFiles/app.dir/src/driver.cpp.o.d"
+  "/Users/acsbence/Documents/C++/warehouseManager/src/employee.cpp" "CMakeFiles/app.dir/src/employee.cpp.o" "gcc" "CMakeFiles/app.dir/src/employee.cpp.o.d"
   "/Users/acsbence/Documents/C++/warehouseManager/src/main.cpp" "CMakeFiles/app.dir/src/main.cpp.o" "gcc" "CMakeFiles/app.dir/src/main.cpp.o.d"
   )
 
