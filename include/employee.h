@@ -10,11 +10,11 @@ private:
     int annualSalary;
     int warehouseId;
 public:
-    Employee(int id, std::string& name, int annualSalary, int warehouseId);
+    Employee(int id, const std::string& name, int annualSalary, int warehouseId);
     virtual ~Employee() = default;
     
     int getId() const;
-    std::string getName() const;
+    const std::string& getName() const;
     int getWarehouse() const;
     virtual void work() = 0;
 };
